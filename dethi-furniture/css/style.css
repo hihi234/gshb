@@ -1,0 +1,224 @@
+@charset "utf-8";
+/* CSS Document */
+*{box-sizing: border-box}
+header{
+	width: 100%;
+	height: 60px;}
+.logo{ padding-top: 18px}
+.menu ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex
+}
+.menu{
+	padding-top: 20px
+}
+.menu ul li a{
+	padding: 10px 20px;
+	text-decoration: none;
+	font-size: 17px;
+	color: darkred;
+	border-radius: 5px;
+	display: block
+}
+.menu ul li a:hover{
+	background-color: darkred; color: white
+}
+.menu ul li{
+	position: relative
+}
+.menu .submenu{
+	position: absolute;
+	left: 0;
+	top: 100%;
+	width: 200px;
+	display: flex;
+	flex-direction: column;
+	background-color: #D9D9D9;
+	display: none
+}
+.menu .submenu li{
+	border-bottom: 1px solid #8B0000
+}
+.menu ul li:hover .submenu{
+	display: block
+}
+.icon{
+	padding-top: 20px;
+	
+}
+.icon a{
+	margin-left: 5px
+}
+main{
+	width: 100%;
+	min-height: 600px
+}
+#feature{
+	width: 100%;
+	min-height: 600px;
+	background: url("bg2.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom center
+}
+.gach-chan{
+	border-bottom: 2px solid darkred
+}
+.pt-30{
+	padding-top: 30px
+}
+.vien-trang{
+	border: 1px solid #FFFFFF;
+	padding: 30px;
+	text-align: center;
+	color: darkred
+}
+.vien-trang a{
+	color: darkred;
+	text-decoration: none
+}
+.j-between{
+	justify-content: space-between
+}
+.text-do{
+	color: darkred
+}
+.icon{
+	position: absolute;
+	width: 80%;
+	height: 60px;
+	display: flex;
+	justify-content: space-around;
+	left: 10%;
+	top: -17%;
+	transition: all 1s
+}
+.icon a{
+	width: 45px;
+	height: 45px;
+	background-color: white;
+	border: 1px solid darkred;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	color: darkred
+}
+.icon a:hover{
+	background-color: darkred;
+	color: white
+}
+.vien{
+	width: 100%;
+	min-height: 200px;
+	border: 1px solid darkred;
+	border-radius: 5px;
+	padding: 15px;
+	position: relative;
+	overflow:  hidden
+}
+.vien:hover .icon{
+	top: 40%;
+	
+}
+.title{
+	width: 40%;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 80px
+}
+.title p{
+	color: darkred
+}
+.hinh1{
+	width: 50%
+}
+.form-control{
+	padding: 8px;
+	margin-bottom: 10px;
+	border-radius: 10px
+}
+.form{
+	width: 100%;
+	margin: 0px auto;
+	padding: 8px 40px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+}
+.btn{
+	border: 2px solid darkred;
+	color: darkred;
+	padding: 10px 20px;
+	border-radius: 15px
+}
+.dangky{
+	width: 30%;
+	min-height: 600px;
+	color: darkred;
+	padding: 10px 5px;
+	margin: 0 auto;
+	
+}
+.container p{
+	color: darkred;
+	flex-direction: column;
+}
+.form button{
+	color: white;
+	background: darkred;
+	border: 1px solid darkred;
+	padding: 5px 30px;
+	border-radius: 50px;
+	margin-top: 10px;
+	align-content: center;
+	align-items: center;
+}
+.form-control form input[type="text"],
+.form-control form input[type="tel"],
+.form-control form input[type="email"],
+.form-control form textarea {
+        width: 100%; 
+        box-sizing: border-box; 
+        margin-bottom: 5px; 
+		padding: 3px;
+}
+.form-control{
+	position: absolute;
+	padding: 10px;
+	width: 30%;
+	top: 25%;
+	left: 35%;
+	border: 0.5px solid grey;
+	min-height: 100px;
+	box-shadow: 5px 5px 5px darkgrey;
+}
+.caption{
+	position: absolute;
+	width: 100%;
+	top: 10%;
+	left: 0%;
+	z-index: 2;
+}
+.boxcha{
+	width: 100%;
+	position: relative;
+}
+.boxcha .caption h2{
+	font-size: 25px;
+}
+#contact{
+	width: 100%;
+	min-height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center
+}
+.shadow{
+	width: 100%;
+	min-height: 300px;
+	border: 1px solid #ADADAD;
+	box-shadow: 5px 5px 5px gray
+}
